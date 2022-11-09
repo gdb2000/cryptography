@@ -18,5 +18,5 @@ char[] encrypt_word(char[] plaintext, int key){
     return encrypted_text;
 }
 int main(int argc, char** argv){
-    printf("%s",encrypt_word(argv[1]))
+    printf("%s",encrypt_word(argv[1]));
 }
